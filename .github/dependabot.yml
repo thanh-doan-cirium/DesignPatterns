@@ -10,4 +10,8 @@ updates:
     schedule:
       interval: "daily"
       time: "13:10"
+    groups:
+      csharpNuget:
+        patterns:
+          - "*"
     open-pull-requests-limit: 10
